@@ -1,0 +1,115 @@
+/* Set a background color for the whole page */
+body {
+	background-color: #bdc1c7;
+  }
+  
+  /* Style the header */
+  header {
+	background-color: #270cf1;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  h1 {
+	margin: 0;
+  }
+  
+  nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  nav a:hover,
+  nav a.active {
+	background-color: #fff;
+	color: #3016fb;
+  }
+  
+  /* Style the main content */
+  main {
+	max-width: 800px;
+	margin: 20px auto;
+	text-align: center;
+  }
+  
+  h2 {
+	font-size: 36px;
+  }
+  
+  p {
+	font-size: 18px;
+	line-height: 1.5;
+  }
+  
+  a {
+	display: inline-block;
+	background-color: #3016fb;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+	transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+	background-color: #fff;
+	color: #3016fb;
+  }
+  
+  /* Style the services section */
+  #services {
+	max-width: 1200px;
+	margin: 40px auto;
+	text-align: center;
+  }
+  
+  #services h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+  }
+  
+  #services li {
+	list-style: none;
+	margin-bottom: 40px;
+	text-align: left;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #services li img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+  }
+  
+  #services li h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  
+  #services li p {
+	font-size: 18px;
+	line-height: 1.5;
+  }
+  
+  /* Style the footer */
+  footer {
+	background-color: #270cf1;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+  }
+  

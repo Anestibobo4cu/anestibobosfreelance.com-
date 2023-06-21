@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+    /* Styles for subpageTitle */
+    .subpageTitle {
+        background-color: #bdc1c7;
+        padding: 10px;
+    }
+
+    .subpageTitle h1 {
+        color: #333;
+    }
+
+    /* Styles for contactForm */
+    .contactForm .form-control {
+        margin-bottom: 10px;
+    }
+
+    .contactForm textarea {
+        resize: vertical;
+    }
+
+    .contactForm .btn-primary {
+        margin-top: 10px;
+    }
+
+    /* Styles for sidebar-widget */
+    .sidebar-widget .list-group-item {
+        margin-bottom: 10px;
+    }
+
+    .sidebar-widget a {
+        color: #333;
+    }
+
+    .sidebar-widget .navHighlight a {
+        color: white;
+    }
+</style>
+
+   </style>
+  <div class="subpageTitle u-bg10">
+   <div class="container">
+</div>
+<!-- subpageBanner -->
+<div class="container">
+   <div class="row">
+      <div class="col-sm-8 col-sm-push-4 col-md-7 col-md-push-5 col-lg-8 col-lg-push-4" id="mainContent">
+         <ul class="breadcrumb">
+            <li>
+               <a id="bchomelink" class="fileTrail" href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li class="fileTrailCurrent active">Contact me</li>
+         <form name="contentForm" enctype="multipart/form-data" method="post" action="/contact-us/index.stml">
+            <!-- <h4>CONTACT FORM</h4> -->
+            <div class="contactForm">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="form-group icon-1">
+                        <label class="control-label sr-only" for="firstName">First Name</label> 
+                        <input name="firstName" id="firstName" class="form-control" placeholder="FIRST NAME" type="text" value="">
+                     </div>
+                     <div class="form-group icon-1">
+                        <label class="control-label sr-only" for="c_lastname">Last Name</label> 
+                        <input name="lastname" id="c_lastname" class="form-control" placeholder="LAST NAME" type="text" value="">
+                     </div>
+                     <div class="form-group icon-2">
+                        <label class="control-label sr-only" for="fromEmail">Email</label> 
+                        <input name="fromEmail" id="fromEmail" class="form-control" placeholder="EMAIL" type="text" value="">
+                     </div>
+                     <div class="form-group icon-3">
+                        <label class="control-label sr-only" for="phoneNumber">Phone Number</label> 
+                        <input name="phoneNumber" id="phoneNumber" class="form-control" placeholder="PHONE" type="text" value="">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                        <label class="control-label sr-only" for="comments">Your Message</label> 
+                        <textarea name="comments" rows="5" id="comments" class="form-control" placeholder="YOUR MESSAGE" cols="10"></textarea>
+                     </div>
+                     <input type="submit" value="SUBMIT" class="btn btn-primary btn-block">
+                  </div>
+               </div>
+               <!-- / row -->
+            </div>
+            <!-- / contactForm -->
+         </form>
+      </div>
+      <!-- / #mainContent -->
+      <div class="col-sm-4 col-sm-pull-8 col-md-5 col-md-pull-7 col-lg-4 col-lg-pull-8 pageSidebar" id="leftSideNav">
+         <ul class="sidebar-widget list-group u-paddingTop30 text-uppercase">
+            <li class="list-group-item">
+               <a href="/" data-module-object-id="2" data-id="12379" data-layout="basic" data-levels="1">About Us</a>
+            </li>
+            <li class="navHighlight list-group-item">
+               <a href="/" data-module-object-id="2" data-id="12379" data-layout="basic" data-levels="1" style="color: white;">Contact Us</a>
+            </li>
+            <li class="list-group-item">
+               <a href="/" data-module-object-id="2" data-id="12385" data-layout="basic" data-levels="1">Phone Directory</a>
+            </li>
+         </ul>
+      </div>
+      <!-- / #leftSideNav -->
+   </div>
+   <!-- / row -->
+</div>
+<!-- / container -->
+</div>
+   
